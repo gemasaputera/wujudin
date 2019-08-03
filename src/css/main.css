@@ -11,6 +11,30 @@ p {
   margin: 0;
 }
 
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+.pt-15 {
+  padding-top: 15px !important;
+}
+
+.pt-20 {
+  padding-top: 20px !important;
+}
+
+.pt-25 {
+  padding-top: 25px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+
 small {
   font-weight: 300;
 }
@@ -28,7 +52,8 @@ body {
 }
 
 header {
-  position: relative;
+  position: fixed;
+  width: 100%;
   background-color: #FFF;
   padding: 1.5em 0;
   -webkit-box-shadow: 1px -3px 20px -5px rgba(0, 0, 0, 0.5);
@@ -174,6 +199,60 @@ footer {
   color: #e6e6e6;
 }
 
+.justify-content-around {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.mini-card {
+  padding: 2.25rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.2);
+}
+
+.mini-card .ic {
+  width: 100px;
+}
+
+.mini-card .mini-status {
+  margin-left: 1.5rem;
+}
+
+.mini-card .mini-status .main-status {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mini-card .mini-status .category-status {
+  margin-top: 10px;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .default-mid {
   padding: 5rem 6rem;
   display: -webkit-box;
@@ -194,6 +273,16 @@ footer {
   font-size: 2.625em;
   line-height: 50px;
   margin-bottom: 10px;
+  color: #223242;
+}
+
+.default-mid .title-wrapper .subtitle-section {
+  margin: 0 auto;
+  max-width: 70%;
+  font-weight: 300;
+  color: #657783;
+  margin-top: 30px;
+  line-height: 27px;
 }
 
 .default-sec {
@@ -222,7 +311,15 @@ footer {
 .separator {
   background: #3480E3;
   height: .5rem;
-  width: 10rem;
+  width: 7rem;
+  border-radius: 50rem;
+  margin: 0 auto;
+}
+
+.mini-separator {
+  background: #FF840D;
+  height: .5rem;
+  width: 3rem;
   border-radius: 50rem;
   margin: 0 auto;
 }
