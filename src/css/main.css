@@ -1,0 +1,233 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Montserrat', 'sans-serif';
+  margin: 0;
+}
+
+small {
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'sans-serif';
+  scroll-behavior: smooth;
+  background: #FFF;
+}
+
+.g-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-color: #FFF;
+  padding: 1.5em 0;
+  -webkit-box-shadow: 1px -3px 20px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px -3px 20px -5px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+header a {
+  color: #3480E3;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header a.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  -webkit-transition: .6s all;
+  transition: .6s all;
+}
+
+header a.logo:hover {
+  color: #ca194e;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li a {
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: .75em;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #E53167;
+}
+
+header nav ul li.active a {
+  color: #3480E3;
+}
+
+header nav ul li.last-menu > a {
+  color: #FFF;
+  background: #E53167;
+  padding: .75em 1.5em;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+header nav ul li.last-menu > a:hover {
+  background: #ca194e;
+}
+
+footer {
+  background: #3480E3;
+  width: 100%;
+  padding: 5rem 0rem 8.75rem 0rem;
+  color: #FFF;
+}
+
+.flx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flx .desc {
+  width: 30%;
+  padding: 0px 10px;
+  line-height: 27px;
+}
+
+.flx .desc h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.flx .nav-footer {
+  width: 15%;
+  padding: 0px 10px;
+}
+
+.flx .nav-footer ul li p.footer-title {
+  font-weight: bold;
+}
+
+.flx .nav-footer ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.flx .nav-footer ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.flx .nav-footer ul li a:hover {
+  color: #e6e6e6;
+}
+
+.flx .nav-footer-last {
+  max-width: 40%;
+  padding: 0px 10px;
+}
+
+.flx .nav-footer-last ul li p.footer-title {
+  font-weight: bold;
+}
+
+.flx .nav-footer-last ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.flx .nav-footer-last ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.flx .nav-footer-last ul li a:hover {
+  color: #e6e6e6;
+}
+
+.default-mid {
+  padding: 5rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.default-mid .title-wrapper {
+  text-align: center;
+}
+
+.default-mid .title-wrapper .title-section {
+  font-weight: 300;
+  font-size: 2.625em;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.default-sec {
+  padding: 5rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.default-sec h2.title-sec {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.img-construction {
+  width: 45rem;
+}
+
+.separator {
+  background: #3480E3;
+  height: .5rem;
+  width: 10rem;
+  border-radius: 50rem;
+  margin: 0 auto;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+/*# sourceMappingURL=main.css.map */
