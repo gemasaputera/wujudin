@@ -28,24 +28,4 @@
   line-height: 27px;
   font-weight: 300;
 }
-
-.home-banner .home-caption button.btn-go {
-  color: #FFF;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: bold;
-  width: 20rem;
-  letter-spacing: 1.5px;
-  border-style: none;
-  border-radius: .5rem;
-  background: #E53167;
-  padding: .75rem 1.5rem;
-  margin-top: 2rem;
-  -webkit-transition: .5s all;
-  transition: .5s all;
-}
-
-.home-banner .home-caption button.btn-go:hover {
-  background-color: #ca194e;
-}
 /*# sourceMappingURL=styles.css.map */

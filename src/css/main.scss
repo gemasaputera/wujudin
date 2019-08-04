@@ -46,6 +46,10 @@ small {
     font-weight: 300;
 }
 
+.blue {
+    background-color: $primary!important;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', 'sans-serif';
@@ -219,7 +223,7 @@ footer {
     box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.2);
 
     .ic {
-        width: 100px;
+        width: 6rem;;
     }
 
     .mini-status {
@@ -304,4 +308,88 @@ footer {
 
 .font-bold {
     font-weight: bold !important;
+}
+
+.blue-fluid {
+    background: $primary;
+    padding: 5rem 0;
+
+    .item1 {
+        grid-area: bello;
+    }
+
+    .item2 {
+        grid-area: wello;
+        float: right;
+        text-align: right;
+    }
+
+    .wrapper-fluid {
+        display: grid;
+        grid-template-areas: 'bello wello';
+        grid-gap: 10px;
+        align-items: center;
+        justify-items: center;
+
+        > div {
+            color: #FFF;
+
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 400;
+                line-height: 3rem;
+            }
+        }
+    }
+}
+
+.img-program {
+    max-width: 30rem;
+    border-radius: 10px;
+}
+
+.program-caption {
+    width: 30rem;
+    text-align: left;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    margin: 0 10px;
+
+    h3 {
+        font-weight: 300;
+        font-size: 1.875em;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+    }
+}
+
+.btn-primary {
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    width: 20rem;
+    letter-spacing: 1.5px;
+    border-style: none;
+    border-radius: .5rem;
+    background: #E53167;
+    padding: .75rem 1.5rem;
+    margin-top: 2rem;
+    transition: .5s all;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: darken(#E53167, 10%)
+    }
+}
+
+.btn-primary.btn-big {
+    padding: 1.2rem 3rem;
+    font-size: 1.625em;
+    margin: 0 auto;
+    font-weight: 300;
 }
