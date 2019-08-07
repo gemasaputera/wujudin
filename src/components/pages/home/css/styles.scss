@@ -28,3 +28,76 @@
         }
     }
 }
+/* Media Queries */
+
+@media only screen and (min-width: 1081px) and (max-width: 1280px) {
+    .home-banner {
+        .home-caption {
+            max-width: 25rem;
+            top: 25%;
+            left: 5%;
+
+            h1.title-cap {
+                font-size: 2.0625em;
+            }
+
+            p.subtitle-cap {
+                font-size: 0.875em;
+                line-height: 20px;
+            }
+
+            button {
+                max-width: 15rem;
+                margin-top: .75rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1080px) {
+    .home-banner {
+        .home-caption {
+            max-width: 19rem;
+            top: 25%;
+            left: 5%;
+
+            h1.title-cap {
+                font-size: 2.0625em;
+            }
+
+            p.subtitle-cap {
+                font-size: 0.875em;
+                line-height: 20px;
+            }
+
+            button {
+                max-width: 15rem;
+                margin-top: .75rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .home-banner {
+        .home-caption {
+            max-width: 19rem;
+            top: 25%;
+            left: 5%;
+
+            h1.title-cap {
+                font-size: 2.0625em;
+            }
+
+            p.subtitle-cap {
+                font-size: 0.875em;
+                line-height: 20px;
+            }
+
+            button {
+                max-width: 15rem;
+                margin-top: .75rem;
+            }
+        }
+    }
+}

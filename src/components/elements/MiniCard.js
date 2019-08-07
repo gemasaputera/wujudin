@@ -22,13 +22,13 @@ export class Card extends Component {
 
 Card.defaultProps = {
     ic: '',
-    mainStatus: '',
+    mainStatus: 0,
     mainCategory: '',
 }
 
 Card.propTypes = {
     ic: PropTypes.string,
-    mainStatus: PropTypes.string,
+    mainStatus: PropTypes.number,
     mainCategory: PropTypes.string,
 }
 
