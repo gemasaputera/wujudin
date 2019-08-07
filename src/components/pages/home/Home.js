@@ -11,6 +11,9 @@ import icGoodwill from './../../../img/icons/goodwill.png';
 
 export class Home extends Component {
     render() {
+        const slider = ('hello'
+        );
+
         return (
             <>
                 <section className="home-banner">
@@ -90,7 +93,9 @@ export class Home extends Component {
                         </div>
                     </section>
                     <section className="default-mid justify-content-around" style={{ paddingBottom: '10rem'}}>
-                        <img className="img-program" src={imgProgram} alt="Program bimbel gratis" />
+                        <div className="wrapper-imgprogram">
+                            <img className="img-program" src={imgProgram} alt="Program bimbel gratis" />
+                        </div>
                         <div className="program-caption">
                             <h3><span className="font-bold">Bimbel</span> Gratis</h3>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -102,9 +107,10 @@ export class Home extends Component {
                         </div>
                     </section>
                 </div>
+                {slider}
             </>
         )
     }
 }
 
-export default Home
+export default Home;
